@@ -10,7 +10,7 @@ fi
 # Download and run installer
 if [ ! -f "install.sh" ]; then
     echo "📥 Downloading installer..."
-    wget -q https://raw.githubusercontent.com/example/autoscript-vpn/main/install.sh
+    wget -q https://raw.githubusercontent.com/dhyntoh/autoscript-vpn/main/install.sh
     chmod +x install.sh
 fi
 
